@@ -1,0 +1,7 @@
+. {
+    forward . 1.1.1.1
+    hosts /etc/coredns/hosts {
+        fallthrough
+    }
+    reload
+}
